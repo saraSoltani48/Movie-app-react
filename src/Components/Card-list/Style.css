@@ -1,0 +1,44 @@
+.cards{
+    width: 260px;
+    margin-top: 20px;
+    border: 1px solid black;
+    margin-bottom: 59px;
+    transition: all 0,4s ease-in-out;
+}
+
+.mycards{
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    height: 410px;
+    
+    
+}
+.image{
+    width: 150px;
+    height: 300px;
+}
+.cards img{
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.cards p{
+text-align: center;
+margin-left: 30px;
+text-transform: capitalize;
+font-family: "Times New Roman", Times, serif ;
+font-style: italic;
+font-size: 20px;
+font-weight: bold;
+line-height: 10px;
+/* font-variant: small-caps; */
+}
+.cards:hover{
+    box-shadow: -1px 3px 10px 5px rgba(0,0,0,75);
+    cursor: pointer;
+    background-size: cover;
+    border: none;
+}
